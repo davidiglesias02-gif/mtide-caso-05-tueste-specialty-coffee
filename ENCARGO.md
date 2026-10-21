@@ -1,0 +1,74 @@
+# Caso 05 · Tueste Specialty Coffee — el encargo
+
+> Negocio y datos **ficticios**, creados para la asignatura. Es tu mismo caso de la J3.
+
+## Qué ha pasado desde la J3
+
+En la J3 limpiaste el parte en un cuaderno y contestaste tres preguntas. Tueste quiere su parte de caja cargado solo, y con el registro de tickets del TPV saber **si tiene los baristas que necesita en cada momento del día**.
+
+Ahora conviertes aquel cuaderno en un **lakehouse** de verdad, en tu propio repositorio, y publicas un **portal** que
+cuenta lo que has hecho. Cómo preparar el repositorio y el ciclo de trabajo de cada bloque: [README.md](README.md).
+
+## Lo que tienes al empezar
+
+- En bronce, el parte de la J3: `lakehouse/bronce/parte/fecha_carga=2026-03-21/`.
+- En `dbt/models/plata/stg_parte.sql`, la limpieza que hiciste en la J3, con unos tests básicos (`_plata.yml`, `dbt/tests/`).
+- `dbt build` en verde. La capa oro, vacía: la construyes tú.
+- En `paginas/`, las cuatro páginas del portal que escribirás, cada una con un guion de lo que debe contar.
+
+**Bronce no se toca nunca**: todo arreglo va en plata.
+
+---
+
+## Bloque 1 · La remesa nueva · rama `remesa`
+
+1. `python herramientas/sistema_simulado.py remesa`: llega una entrega nueva del parte en `bronce/parte/fecha_carga=2026-03-31/` (unos diez días más de pedidos) y `bronce/carta/carta.csv` (precio de cada bebida **sin IVA**).
+2. `dbt build --project-dir dbt --profiles-dir dbt`. A mitad de la remesa se cambió el TPV. **Ningún test básico se pone rojo: ese es el problema.** Hay datos que parecen buenos y no lo son. En tu caso, adelanta a este bloque el test protagonista (está en el bloque 3) y el modelo `stg_carta` que necesita: él es quien los va a destapar.
+3. Arregla `dbt/models/plata/stg_parte.sql` hasta que `dbt build` quede en verde y el problema esté resuelto (no siempre hay un test que lo grite: a veces tienes que escribirlo tú). Deja un comentario en el SQL: **qué** venía mal y **por qué** lo arreglas así.
+4. Escribe `paginas/1-remesa.md`.
+5. Pull request en tu repositorio, Actions en verde y lo fusionas.
+
+## Bloque 2 · El oro · rama `oro`
+
+Crea en `dbt/models/oro/` estos modelos, **con estos nombres exactos** (el portal y la jornada de Visualización los leen así):
+
+| Modelo | Qué tiene |
+|---|---|
+| `dim_barista` | una fila por cada valor distinto de `barista` |
+| `dim_cafetera` | una fila por cada valor distinto de `cafetera` |
+| `dim_bebida` | una fila por cada valor distinto de `bebida` |
+| `fact_pedidos` | un pedido por fila: `ticket`, `fecha`, `barista`, `cafetera`, `bebida`, `tazas`, `gramos_cafe`, `importe_eur`, `con_incidencia` |
+| `pregunta_1` | ¿Qué **bebida** deja menos ingreso por taza? Una fila por `bebida`, con `bebida` en la primera columna y `ingreso_taza` (€/taza), de menor a mayor |
+| `pregunta_2` | ¿Qué **barista** gasta más café por taza? Una fila por `barista`, con `barista` en la primera columna y `g_taza` (g/taza), de mayor a menor |
+| `pregunta_3` | ¿Qué **cafetera** acumula más incidencias por cada 100 tazas? Una fila por `cafetera`, con `cafetera` en la primera columna y `incidencias_100tazas` (incidencias por 100 tazas), de mayor a menor |
+
+En un `_oro.yml`, sus tests: en las dimensiones, `unique` y `not_null`; en el hecho, `unique` en `ticket` y `relationships` con cada dimensión.
+
+Escribe `paginas/2-oro.md`: tu estrella y las tres respuestas. Con la remesa nueva (un 25 % más de datos), ¿siguen saliendo las mismas que en la J3? Pull request, verde, fusionas.
+
+## Bloque 3 · Fuentes nuevas · rama `fuentes`
+
+1. `python herramientas/sistema_simulado.py fuentes`: llegan estos ficheros a bronce y quedan declarados en `dbt/models/plata/_fuentes.yml`.
+
+| Fichero | Qué es | Columnas |
+|---|---|---|
+| `bronce/carta/turnos.csv` | cuántos baristas hay programados en cada franja de dos horas | franja_inicio, franja_fin, baristas |
+| `bronce/eventos/tickets_tpv_2026-04-02.json` | El TPV exporta un registro con cada ticket del día, a la hora en que se cobró. | ticket_id, ts, bebida, tazas, barista |
+
+2. **El giro.** Los tickets se concentran **a ráfagas**: hay horas punta en las que entran muchos de golpe. La media del día esconde justo lo que te preguntan.
+3. Modelos de plata: `stg_turnos` y `stg_eventos` (el registro lo lees con `source('bronce', 'eventos')`).
+4. **Test protagonista.** **El precio medio por taza de cada bebida tiene que cuadrar con la carta (±2 %).** Escribe un test singular que lo compruebe. Si está rojo, busca en la remesa qué tickets lo descuadran y arréglalo en plata.
+5. **Pregunta 4** (`dbt/models/oro/pregunta_4.sql`): ¿A qué **hora** faltan más baristas? Supón que un barista prepara **30 tazas por hora** y compara con los turnos.
+6. Escribe `paginas/3-fuentes.md`. Pull request, verde, fusionas.
+
+## Bloque 4 · El memo · rama `memo`
+
+Escribe `paginas/memo.md`: el memo para la dirección de Tueste Specialty Coffee, con las cuatro respuestas citadas con marcas. La comprobación exige que existan `pregunta_1` a `pregunta_4`. Repasa el portal entero antes de fusionar.
+
+---
+
+## Lo que se entrega
+
+- Tu repositorio en tu cuenta, con los cuatro pull requests fusionados y la última ejecución de `main` en verde.
+- Tu portal publicado, con sus cuatro páginas escritas, y tu `dbt-docs`.
+- La presentación oral (5 minutos): con tu portal en pantalla, el problema de calidad, tu test protagonista, las cuatro respuestas y tu recomendación.

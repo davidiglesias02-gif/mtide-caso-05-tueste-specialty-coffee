@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: stg_parte
+    description: "El parte diario limpio, con las dos entregas"
+    columns:
+      - name: ticket
+        data_tests: [unique, not_null]
+      - name: barista
+        data_tests: [not_null]
+      - name: bebida
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["espresso", "flat white", "cappuccino", "cold brew", "filtro V60", "matcha latte", "mocha", "café del día"]

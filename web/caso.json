@@ -1,0 +1,12 @@
+{
+ "num": 5,
+ "empresa": "Tueste Specialty Coffee",
+ "subtitulo": "cafetería de especialidad",
+ "contexto": "Tueste quiere su parte de caja cargado solo, y con el registro de tickets del TPV saber **si tiene los baristas que necesita en cada momento del día**.",
+ "preguntas": [
+  "¿Qué **bebida** deja menos ingreso por taza?",
+  "¿Qué **barista** gasta más café por taza?",
+  "¿Qué **cafetera** acumula más incidencias por cada 100 tazas?",
+  "¿A qué **hora** faltan más baristas? Supón que un barista prepara **30 tazas por hora** y compara con los turnos."
+ ]
+}

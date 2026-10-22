@@ -24,6 +24,23 @@ cuenta lo que has hecho. Cómo preparar el repositorio y el ciclo de trabajo de 
 
 1. `python herramientas/sistema_simulado.py remesa`: llega una entrega nueva del parte en `bronce/parte/fecha_carga=2026-03-31/` (unos diez días más de pedidos) y `bronce/carta/carta.csv` (precio de cada bebida **sin IVA**).
 2. `dbt build --project-dir dbt --profiles-dir dbt`. A mitad de la remesa se cambió el TPV. **Ningún test básico se pone rojo: ese es el problema.** Hay datos que parecen buenos y no lo son. En tu caso, adelanta a este bloque el test protagonista (está en el bloque 3) y el modelo `stg_carta` que necesita: él es quien los va a destapar.
+
+   > 🔎 **Pista · mirar dentro antes de arreglar.** `dbt build` te dice *dónde* duele, no *por qué*.
+   > Para eso tienes `dbt show`: ejecuta una consulta y te enseña el resultado sin construir nada.
+   >
+   > ```bash
+   > dbt show --project-dir dbt --profiles-dir dbt --select <un_test>
+   > dbt show --project-dir dbt --profiles-dir dbt --inline "select ... from {{ ref('<modelo>') }} ..."
+   > dbt show --project-dir dbt --profiles-dir dbt --inline "select ... from {{ source('bronce', 'parte') }} ..."
+   > ```
+   >
+   > El primero te enseña las filas que un test rechaza. Los otros dos te dejan preguntar lo que quieras
+   > a plata o a bronce tal como llegó. Antes de tocar el SQL, intenta contestar tres preguntas:
+   > **¿qué filas?**, **¿desde cuándo?** y **¿venía ya así en bronce?** Bronce guarda cada entrega en su
+   > carpeta `fecha_carga=…`, y esa columna te deja comparar una entrega con otra.
+   >
+   > *Que nada salga rojo no quiere decir que esté bien: compara lo que trae cada entrega en las columnas que importan.*
+
 3. Arregla `dbt/models/plata/stg_parte.sql` hasta que `dbt build` quede en verde y el problema esté resuelto (no siempre hay un test que lo grite: a veces tienes que escribirlo tú). Deja un comentario en el SQL: **qué** venía mal y **por qué** lo arreglas así.
 4. Escribe `paginas/1-remesa.md`.
 5. Pull request en tu repositorio, Actions en verde y lo fusionas.

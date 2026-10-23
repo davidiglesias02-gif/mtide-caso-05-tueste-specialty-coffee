@@ -8,3 +8,7 @@ sources:
         description: "El parte diario: una carpeta fecha_carga=AAAA-MM-DD por entrega"
         meta:
           external_location: "read_csv('lakehouse/bronce/parte/fecha_carga=*/*.csv', all_varchar = true, union_by_name = true, hive_partitioning = true, filename = true)"
+      - name: carta
+        description: "Fuente de referencia: carta/carta.csv"
+        meta:
+          external_location: "read_csv('lakehouse/bronce/carta/carta.csv', header = true)"

@@ -13,3 +13,10 @@ models:
           - accepted_values:
               arguments:
                 values: ["espresso", "flat white", "cappuccino", "cold brew", "filtro V60", "matcha latte", "mocha", "café del día"]
+  - name: stg_carta
+    description: "La carta: precio de cada bebida sin IVA"
+    columns:
+      - name: bebida
+        data_tests: [unique, not_null]
+      - name: precio_sin_iva_eur
+        data_tests: [not_null]

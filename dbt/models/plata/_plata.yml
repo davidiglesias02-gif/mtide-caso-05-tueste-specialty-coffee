@@ -20,3 +20,17 @@ models:
         data_tests: [unique, not_null]
       - name: precio_sin_iva_eur
         data_tests: [not_null]
+  - name: stg_turnos
+    description: "Baristas programados por franja de dos horas"
+    columns:
+      - name: hora_inicio
+        data_tests: [unique, not_null]
+      - name: baristas
+        data_tests: [not_null]
+  - name: stg_eventos
+    description: "Tickets del TPV del día, uno por fila, con su hora"
+    columns:
+      - name: ticket
+        data_tests: [unique, not_null]
+      - name: hora
+        data_tests: [not_null]

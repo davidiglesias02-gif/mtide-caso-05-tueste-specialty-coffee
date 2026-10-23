@@ -12,3 +12,11 @@ sources:
         description: "Fuente de referencia: carta/carta.csv"
         meta:
           external_location: "read_csv('lakehouse/bronce/carta/carta.csv', header = true)"
+      - name: turnos
+        description: "Fuente de referencia: carta/turnos.csv"
+        meta:
+          external_location: "read_csv('lakehouse/bronce/carta/turnos.csv', header = true)"
+      - name: eventos
+        description: "Registro de eventos del día: JSON, una línea por evento"
+        meta:
+          external_location: "read_json('lakehouse/bronce/eventos/*.json', format = 'newline_delimited')"

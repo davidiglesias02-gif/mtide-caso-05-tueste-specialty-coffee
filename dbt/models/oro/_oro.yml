@@ -47,3 +47,9 @@ models:
     columns:
       - name: cafetera
         data_tests: [unique, not_null]
+  - name: pregunta_4
+    columns:
+      - name: hora
+        data_tests: [unique, not_null]
+      - name: baristas_turno
+        data_tests: [not_null]

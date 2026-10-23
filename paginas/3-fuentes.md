@@ -1,7 +1,11 @@
-<!-- pendiente: borra esta línea cuando empieces a escribir la página -->
 # 3 · Fuentes nuevas
 
-> ✏️ Qué llegó: la fuente nueva y el registro de eventos ({{ stg_eventos.filas }} eventos en plata). Para qué sirve cada uno.
-> ✏️ El giro de tu registro: qué tenía de especial y cómo lo has tratado en plata.
-> ✏️ Tu test protagonista: la regla de negocio en una frase, cuántas filas devolvía en rojo y qué cambiaste para el verde.
-> ✏️ Pregunta 4: tu respuesta con su cifra, citada con marcas de `pregunta_4`. ¿Qué habría salido sin tener en cuenta el giro?
+**Qué llegó.** Dos fuentes nuevas. La primera son los **turnos**: cuántos baristas hay programados en cada franja de dos horas, de 7:00 a 19:00 (`stg_turnos`, {{ stg_turnos.filas }} franjas). Es la oferta: cuánta gente hay detrás de la barra. La segunda es el **registro de tickets del TPV** del 2 de abril, una línea por ticket con la hora exacta en que se cobró, la bebida, las tazas y el barista ({{ stg_eventos.filas }} eventos en plata). Es la demanda: cuántas tazas hay que preparar en cada momento.
+
+**El giro.** Antes de modelar el registro lo exploré: hay tantas líneas como tickets distintos (no hay duplicados) y todo es del mismo día. Lo especial es que los tickets llegan **a ráfagas**: de 8:00 a 10:00 y de 13:00 a 14:00 entran entre tres y seis veces más tazas que en el resto de horas. En plata guardo la hora de cada ticket y me quedo con una fila por ticket por si el TPV reenvía alguno. En oro agrupo los tickets **hora a hora** en lugar de usar la media del día, que es justo lo que esconde las ráfagas.
+
+**El test protagonista.** La regla: *el precio medio por taza de cada bebida tiene que cuadrar con la carta, con un margen de ±2 %* (`precio_cuadra_con_carta`). Lo adelanté al bloque 1 porque era el único capaz de ver el problema de la remesa. En rojo devolvía seis de las ocho bebidas, cobradas entre un 2 % y un 4 % por encima de la carta, porque desde el 26 de marzo el TPV nuevo apunta los importes con IVA. Para ponerlo en verde, `stg_parte` pasa esos importes a sin IVA (÷ 1,21). Desde entonces vigila cada remesa: si el TPV vuelve a cambiar de criterio, se pondrá rojo.
+
+**Pregunta 4 · ¿A qué hora faltan más baristas?** Suponiendo que un barista prepara 30 tazas por hora, la peor hora es la de las **{{ pregunta_4.hora[0] }}**: entran {{ pregunta_4.tazas[0] }} tazas, que necesitan {{ pregunta_4.baristas_necesarios[0] }} baristas, y en el turno hay {{ pregunta_4.baristas_turno[0] }}, así que **faltan {{ pregunta_4.baristas_que_faltan[0] }}**. Le siguen las {{ pregunta_4.hora[1] }} ({{ pregunta_4.tazas[1] }} tazas, faltan {{ pregunta_4.baristas_que_faltan[1] }}) y las {{ pregunta_4.hora[2] }} ({{ pregunta_4.tazas[2] }} tazas, falta {{ pregunta_4.baristas_que_faltan[2] }}). En el resto de horas el turno llega.
+
+**¿Y sin tener en cuenta el giro?** Con la media del día salen {{ pregunta_4.tazas_hora_media_dia[0] }} tazas por hora, que piden {{ pregunta_4.baristas_necesarios_con_media[0] }} baristas. Con esa cuenta, el equipo de la mañana parecería suficiente y el problema estaría en las horas con un solo barista (11:00 a 13:00 y de 15:00 en adelante), que en realidad tienen poca demanda. Es decir: la media no solo esconde la falta de personal en la hora punta, sino que señala las horas equivocadas.

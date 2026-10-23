@@ -1,0 +1,391 @@
+{"ticket_id": "TW-00001", "ts": "2026-04-02T07:01:09", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00002", "ts": "2026-04-02T07:03:43", "bebida": "matcha latte", "tazas": 3, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00003", "ts": "2026-04-02T07:04:59", "bebida": "matcha latte", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00004", "ts": "2026-04-02T07:21:47", "bebida": "café del día", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00005", "ts": "2026-04-02T07:18:06", "bebida": "cold brew", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00006", "ts": "2026-04-02T07:23:31", "bebida": "flat white", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00007", "ts": "2026-04-02T07:16:08", "bebida": "matcha latte", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00008", "ts": "2026-04-02T07:14:33", "bebida": "cappuccino", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00009", "ts": "2026-04-02T07:29:15", "bebida": "espresso", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00010", "ts": "2026-04-02T07:34:28", "bebida": "espresso", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00011", "ts": "2026-04-02T07:25:19", "bebida": "café del día", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00012", "ts": "2026-04-02T07:45:24", "bebida": "café del día", "tazas": 3, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00013", "ts": "2026-04-02T07:38:08", "bebida": "matcha latte", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00014", "ts": "2026-04-02T07:44:55", "bebida": "cappuccino", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00015", "ts": "2026-04-02T07:38:44", "bebida": "cold brew", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00016", "ts": "2026-04-02T07:51:35", "bebida": "cappuccino", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00017", "ts": "2026-04-02T07:59:40", "bebida": "cold brew", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00018", "ts": "2026-04-02T07:58:50", "bebida": "mocha", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00019", "ts": "2026-04-02T07:50:40", "bebida": "mocha", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00020", "ts": "2026-04-02T08:00:21", "bebida": "café del día", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00021", "ts": "2026-04-02T08:01:04", "bebida": "flat white", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00022", "ts": "2026-04-02T08:07:21", "bebida": "cold brew", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00023", "ts": "2026-04-02T08:03:34", "bebida": "filtro V60", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00024", "ts": "2026-04-02T08:06:08", "bebida": "espresso", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00025", "ts": "2026-04-02T08:07:44", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00026", "ts": "2026-04-02T08:04:46", "bebida": "cappuccino", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00027", "ts": "2026-04-02T08:10:28", "bebida": "espresso", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00028", "ts": "2026-04-02T08:07:42", "bebida": "filtro V60", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00029", "ts": "2026-04-02T08:05:20", "bebida": "filtro V60", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00030", "ts": "2026-04-02T08:04:54", "bebida": "espresso", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00031", "ts": "2026-04-02T08:05:54", "bebida": "café del día", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00032", "ts": "2026-04-02T08:04:30", "bebida": "matcha latte", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00033", "ts": "2026-04-02T08:07:50", "bebida": "café del día", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00034", "ts": "2026-04-02T08:04:05", "bebida": "mocha", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00035", "ts": "2026-04-02T08:10:44", "bebida": "cold brew", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00036", "ts": "2026-04-02T08:00:08", "bebida": "café del día", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00037", "ts": "2026-04-02T08:10:01", "bebida": "flat white", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00038", "ts": "2026-04-02T08:06:02", "bebida": "filtro V60", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00039", "ts": "2026-04-02T08:14:34", "bebida": "cold brew", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00040", "ts": "2026-04-02T08:19:36", "bebida": "mocha", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00041", "ts": "2026-04-02T08:18:19", "bebida": "flat white", "tazas": 3, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00042", "ts": "2026-04-02T08:13:20", "bebida": "filtro V60", "tazas": 3, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00043", "ts": "2026-04-02T08:18:59", "bebida": "espresso", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00044", "ts": "2026-04-02T08:17:43", "bebida": "café del día", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00045", "ts": "2026-04-02T08:16:06", "bebida": "matcha latte", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00046", "ts": "2026-04-02T08:17:27", "bebida": "filtro V60", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00047", "ts": "2026-04-02T08:16:04", "bebida": "cappuccino", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00048", "ts": "2026-04-02T08:12:49", "bebida": "flat white", "tazas": 3, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00049", "ts": "2026-04-02T08:19:18", "bebida": "filtro V60", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00050", "ts": "2026-04-02T08:15:33", "bebida": "café del día", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00051", "ts": "2026-04-02T08:17:07", "bebida": "mocha", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00052", "ts": "2026-04-02T08:14:20", "bebida": "cappuccino", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00053", "ts": "2026-04-02T08:12:28", "bebida": "cappuccino", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00054", "ts": "2026-04-02T08:16:13", "bebida": "flat white", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00055", "ts": "2026-04-02T08:20:55", "bebida": "matcha latte", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00056", "ts": "2026-04-02T08:14:50", "bebida": "filtro V60", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00057", "ts": "2026-04-02T08:22:38", "bebida": "cappuccino", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00058", "ts": "2026-04-02T08:29:15", "bebida": "filtro V60", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00059", "ts": "2026-04-02T08:25:48", "bebida": "mocha", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00060", "ts": "2026-04-02T08:31:53", "bebida": "espresso", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00061", "ts": "2026-04-02T08:31:58", "bebida": "flat white", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00062", "ts": "2026-04-02T08:29:29", "bebida": "filtro V60", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00063", "ts": "2026-04-02T08:34:10", "bebida": "café del día", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00064", "ts": "2026-04-02T08:25:36", "bebida": "mocha", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00065", "ts": "2026-04-02T08:34:16", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00066", "ts": "2026-04-02T08:33:09", "bebida": "filtro V60", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00067", "ts": "2026-04-02T08:26:24", "bebida": "flat white", "tazas": 3, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00068", "ts": "2026-04-02T08:31:53", "bebida": "flat white", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00069", "ts": "2026-04-02T08:29:41", "bebida": "flat white", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00070", "ts": "2026-04-02T08:29:38", "bebida": "cappuccino", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00071", "ts": "2026-04-02T08:34:05", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00072", "ts": "2026-04-02T08:24:17", "bebida": "filtro V60", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00073", "ts": "2026-04-02T08:30:31", "bebida": "filtro V60", "tazas": 3, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00074", "ts": "2026-04-02T08:25:25", "bebida": "matcha latte", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00075", "ts": "2026-04-02T08:45:48", "bebida": "cappuccino", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00076", "ts": "2026-04-02T08:37:09", "bebida": "café del día", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00077", "ts": "2026-04-02T08:43:56", "bebida": "mocha", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00078", "ts": "2026-04-02T08:37:31", "bebida": "café del día", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00079", "ts": "2026-04-02T08:42:27", "bebida": "mocha", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00080", "ts": "2026-04-02T08:44:32", "bebida": "filtro V60", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00081", "ts": "2026-04-02T08:43:19", "bebida": "matcha latte", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00082", "ts": "2026-04-02T08:38:08", "bebida": "filtro V60", "tazas": 3, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00083", "ts": "2026-04-02T08:46:01", "bebida": "flat white", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00084", "ts": "2026-04-02T08:44:21", "bebida": "cold brew", "tazas": 3, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00085", "ts": "2026-04-02T08:47:36", "bebida": "matcha latte", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00086", "ts": "2026-04-02T08:47:22", "bebida": "espresso", "tazas": 3, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00087", "ts": "2026-04-02T08:43:42", "bebida": "flat white", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00088", "ts": "2026-04-02T08:39:22", "bebida": "mocha", "tazas": 3, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00089", "ts": "2026-04-02T08:38:40", "bebida": "matcha latte", "tazas": 3, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00090", "ts": "2026-04-02T08:46:45", "bebida": "filtro V60", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00091", "ts": "2026-04-02T08:38:00", "bebida": "espresso", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00092", "ts": "2026-04-02T08:36:23", "bebida": "cappuccino", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00093", "ts": "2026-04-02T08:50:16", "bebida": "mocha", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00094", "ts": "2026-04-02T08:55:38", "bebida": "filtro V60", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00095", "ts": "2026-04-02T08:59:48", "bebida": "filtro V60", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00096", "ts": "2026-04-02T08:52:45", "bebida": "cold brew", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00097", "ts": "2026-04-02T08:59:12", "bebida": "matcha latte", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00098", "ts": "2026-04-02T08:48:01", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00099", "ts": "2026-04-02T08:52:52", "bebida": "cold brew", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00100", "ts": "2026-04-02T08:59:06", "bebida": "espresso", "tazas": 3, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00101", "ts": "2026-04-02T08:50:56", "bebida": "espresso", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00102", "ts": "2026-04-02T08:59:11", "bebida": "flat white", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00103", "ts": "2026-04-02T08:55:43", "bebida": "cappuccino", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00104", "ts": "2026-04-02T08:54:43", "bebida": "mocha", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00105", "ts": "2026-04-02T08:50:56", "bebida": "cappuccino", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00106", "ts": "2026-04-02T08:52:26", "bebida": "cappuccino", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00107", "ts": "2026-04-02T08:56:22", "bebida": "café del día", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00108", "ts": "2026-04-02T08:52:15", "bebida": "filtro V60", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00109", "ts": "2026-04-02T08:59:18", "bebida": "matcha latte", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00110", "ts": "2026-04-02T08:50:09", "bebida": "cappuccino", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00111", "ts": "2026-04-02T08:53:15", "bebida": "matcha latte", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00112", "ts": "2026-04-02T09:02:53", "bebida": "espresso", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00113", "ts": "2026-04-02T09:02:33", "bebida": "cold brew", "tazas": 3, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00114", "ts": "2026-04-02T09:04:05", "bebida": "flat white", "tazas": 3, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00115", "ts": "2026-04-02T09:03:51", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00116", "ts": "2026-04-02T09:03:54", "bebida": "café del día", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00117", "ts": "2026-04-02T09:02:30", "bebida": "filtro V60", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00118", "ts": "2026-04-02T09:00:12", "bebida": "matcha latte", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00119", "ts": "2026-04-02T09:07:12", "bebida": "café del día", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00120", "ts": "2026-04-02T09:05:11", "bebida": "matcha latte", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00121", "ts": "2026-04-02T09:05:49", "bebida": "café del día", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00122", "ts": "2026-04-02T09:07:14", "bebida": "espresso", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00123", "ts": "2026-04-02T09:09:12", "bebida": "café del día", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00124", "ts": "2026-04-02T09:00:23", "bebida": "espresso", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00125", "ts": "2026-04-02T09:10:52", "bebida": "filtro V60", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00126", "ts": "2026-04-02T09:04:56", "bebida": "cappuccino", "tazas": 3, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00127", "ts": "2026-04-02T09:00:41", "bebida": "café del día", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00128", "ts": "2026-04-02T09:09:25", "bebida": "mocha", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00129", "ts": "2026-04-02T09:09:53", "bebida": "flat white", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00130", "ts": "2026-04-02T09:02:47", "bebida": "cappuccino", "tazas": 3, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00131", "ts": "2026-04-02T09:03:32", "bebida": "café del día", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00132", "ts": "2026-04-02T09:15:07", "bebida": "café del día", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00133", "ts": "2026-04-02T09:23:50", "bebida": "café del día", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00134", "ts": "2026-04-02T09:20:07", "bebida": "espresso", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00135", "ts": "2026-04-02T09:20:58", "bebida": "café del día", "tazas": 3, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00136", "ts": "2026-04-02T09:15:02", "bebida": "flat white", "tazas": 3, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00137", "ts": "2026-04-02T09:13:08", "bebida": "café del día", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00138", "ts": "2026-04-02T09:18:17", "bebida": "cold brew", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00139", "ts": "2026-04-02T09:22:04", "bebida": "flat white", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00140", "ts": "2026-04-02T09:18:52", "bebida": "café del día", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00141", "ts": "2026-04-02T09:22:41", "bebida": "cappuccino", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00142", "ts": "2026-04-02T09:14:37", "bebida": "cappuccino", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00143", "ts": "2026-04-02T09:17:47", "bebida": "espresso", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00144", "ts": "2026-04-02T09:21:20", "bebida": "flat white", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00145", "ts": "2026-04-02T09:13:20", "bebida": "matcha latte", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00146", "ts": "2026-04-02T09:19:04", "bebida": "espresso", "tazas": 3, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00147", "ts": "2026-04-02T09:22:28", "bebida": "espresso", "tazas": 3, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00148", "ts": "2026-04-02T09:17:43", "bebida": "mocha", "tazas": 3, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00149", "ts": "2026-04-02T09:31:50", "bebida": "espresso", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00150", "ts": "2026-04-02T09:26:06", "bebida": "cold brew", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00151", "ts": "2026-04-02T09:33:39", "bebida": "espresso", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00152", "ts": "2026-04-02T09:31:44", "bebida": "cappuccino", "tazas": 3, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00153", "ts": "2026-04-02T09:35:47", "bebida": "cold brew", "tazas": 3, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00154", "ts": "2026-04-02T09:35:27", "bebida": "espresso", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00155", "ts": "2026-04-02T09:33:42", "bebida": "cold brew", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00156", "ts": "2026-04-02T09:25:35", "bebida": "filtro V60", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00157", "ts": "2026-04-02T09:33:11", "bebida": "flat white", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00158", "ts": "2026-04-02T09:34:11", "bebida": "flat white", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00159", "ts": "2026-04-02T09:35:13", "bebida": "filtro V60", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00160", "ts": "2026-04-02T09:29:22", "bebida": "café del día", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00161", "ts": "2026-04-02T09:35:38", "bebida": "matcha latte", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00162", "ts": "2026-04-02T09:28:58", "bebida": "filtro V60", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00163", "ts": "2026-04-02T09:31:43", "bebida": "café del día", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00164", "ts": "2026-04-02T09:27:37", "bebida": "mocha", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00165", "ts": "2026-04-02T09:34:21", "bebida": "flat white", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00166", "ts": "2026-04-02T09:35:25", "bebida": "cappuccino", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00167", "ts": "2026-04-02T09:27:22", "bebida": "mocha", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00168", "ts": "2026-04-02T09:39:05", "bebida": "flat white", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00169", "ts": "2026-04-02T09:45:49", "bebida": "mocha", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00170", "ts": "2026-04-02T09:36:48", "bebida": "filtro V60", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00171", "ts": "2026-04-02T09:37:35", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00172", "ts": "2026-04-02T09:47:47", "bebida": "mocha", "tazas": 3, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00173", "ts": "2026-04-02T09:46:32", "bebida": "cold brew", "tazas": 3, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00174", "ts": "2026-04-02T09:38:02", "bebida": "flat white", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00175", "ts": "2026-04-02T09:45:05", "bebida": "flat white", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00176", "ts": "2026-04-02T09:40:46", "bebida": "cappuccino", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00177", "ts": "2026-04-02T09:43:32", "bebida": "filtro V60", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00178", "ts": "2026-04-02T09:37:23", "bebida": "espresso", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00179", "ts": "2026-04-02T09:36:19", "bebida": "cold brew", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00180", "ts": "2026-04-02T09:47:32", "bebida": "mocha", "tazas": 3, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00181", "ts": "2026-04-02T09:38:09", "bebida": "cold brew", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00182", "ts": "2026-04-02T09:46:25", "bebida": "flat white", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00183", "ts": "2026-04-02T09:40:21", "bebida": "matcha latte", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00184", "ts": "2026-04-02T09:50:13", "bebida": "flat white", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00185", "ts": "2026-04-02T09:55:05", "bebida": "flat white", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00186", "ts": "2026-04-02T09:53:34", "bebida": "filtro V60", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00187", "ts": "2026-04-02T09:48:05", "bebida": "matcha latte", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00188", "ts": "2026-04-02T09:58:09", "bebida": "flat white", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00189", "ts": "2026-04-02T09:57:00", "bebida": "matcha latte", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00190", "ts": "2026-04-02T09:58:34", "bebida": "filtro V60", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00191", "ts": "2026-04-02T09:53:20", "bebida": "café del día", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00192", "ts": "2026-04-02T09:56:24", "bebida": "flat white", "tazas": 3, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00193", "ts": "2026-04-02T09:48:53", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00194", "ts": "2026-04-02T09:48:37", "bebida": "flat white", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00195", "ts": "2026-04-02T09:51:42", "bebida": "matcha latte", "tazas": 3, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00196", "ts": "2026-04-02T09:52:18", "bebida": "cold brew", "tazas": 3, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00197", "ts": "2026-04-02T09:53:52", "bebida": "cold brew", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00198", "ts": "2026-04-02T09:54:24", "bebida": "matcha latte", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00199", "ts": "2026-04-02T09:51:20", "bebida": "cappuccino", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00200", "ts": "2026-04-02T09:50:47", "bebida": "cold brew", "tazas": 3, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00201", "ts": "2026-04-02T09:54:46", "bebida": "mocha", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00202", "ts": "2026-04-02T09:51:11", "bebida": "filtro V60", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00203", "ts": "2026-04-02T10:05:56", "bebida": "espresso", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00204", "ts": "2026-04-02T10:04:57", "bebida": "espresso", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00205", "ts": "2026-04-02T10:02:28", "bebida": "cappuccino", "tazas": 3, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00206", "ts": "2026-04-02T10:03:03", "bebida": "filtro V60", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00207", "ts": "2026-04-02T10:14:57", "bebida": "cappuccino", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00208", "ts": "2026-04-02T10:18:10", "bebida": "cappuccino", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00209", "ts": "2026-04-02T10:14:18", "bebida": "espresso", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00210", "ts": "2026-04-02T10:15:34", "bebida": "matcha latte", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00211", "ts": "2026-04-02T10:24:01", "bebida": "flat white", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00212", "ts": "2026-04-02T10:30:15", "bebida": "flat white", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00213", "ts": "2026-04-02T10:28:03", "bebida": "mocha", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00214", "ts": "2026-04-02T10:42:12", "bebida": "matcha latte", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00215", "ts": "2026-04-02T10:40:27", "bebida": "cappuccino", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00216", "ts": "2026-04-02T10:58:27", "bebida": "flat white", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00217", "ts": "2026-04-02T10:59:29", "bebida": "mocha", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00218", "ts": "2026-04-02T10:53:25", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00219", "ts": "2026-04-02T11:10:02", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00220", "ts": "2026-04-02T11:05:39", "bebida": "espresso", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00221", "ts": "2026-04-02T11:03:06", "bebida": "flat white", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00222", "ts": "2026-04-02T11:22:32", "bebida": "cappuccino", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00223", "ts": "2026-04-02T11:17:27", "bebida": "cold brew", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00224", "ts": "2026-04-02T11:16:36", "bebida": "cappuccino", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00225", "ts": "2026-04-02T11:34:00", "bebida": "flat white", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00226", "ts": "2026-04-02T11:24:34", "bebida": "cold brew", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00227", "ts": "2026-04-02T11:29:32", "bebida": "espresso", "tazas": 3, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00228", "ts": "2026-04-02T11:38:18", "bebida": "cappuccino", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00229", "ts": "2026-04-02T11:46:50", "bebida": "cappuccino", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00230", "ts": "2026-04-02T11:48:11", "bebida": "café del día", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00231", "ts": "2026-04-02T11:48:16", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00232", "ts": "2026-04-02T11:54:20", "bebida": "matcha latte", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00233", "ts": "2026-04-02T12:10:56", "bebida": "mocha", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00234", "ts": "2026-04-02T12:01:57", "bebida": "cappuccino", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00235", "ts": "2026-04-02T12:04:39", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00236", "ts": "2026-04-02T12:01:08", "bebida": "café del día", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00237", "ts": "2026-04-02T12:13:25", "bebida": "cappuccino", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00238", "ts": "2026-04-02T12:22:54", "bebida": "filtro V60", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00239", "ts": "2026-04-02T12:22:58", "bebida": "cappuccino", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00240", "ts": "2026-04-02T12:26:39", "bebida": "filtro V60", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00241", "ts": "2026-04-02T12:25:24", "bebida": "espresso", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00242", "ts": "2026-04-02T12:45:25", "bebida": "cold brew", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00243", "ts": "2026-04-02T12:46:58", "bebida": "matcha latte", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00244", "ts": "2026-04-02T12:38:08", "bebida": "cold brew", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00245", "ts": "2026-04-02T12:50:38", "bebida": "flat white", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00246", "ts": "2026-04-02T12:57:33", "bebida": "mocha", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00247", "ts": "2026-04-02T12:57:47", "bebida": "mocha", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00248", "ts": "2026-04-02T12:50:29", "bebida": "flat white", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00249", "ts": "2026-04-02T13:07:09", "bebida": "matcha latte", "tazas": 3, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00250", "ts": "2026-04-02T13:05:57", "bebida": "filtro V60", "tazas": 3, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00251", "ts": "2026-04-02T13:07:11", "bebida": "espresso", "tazas": 3, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00252", "ts": "2026-04-02T13:06:08", "bebida": "flat white", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00253", "ts": "2026-04-02T13:08:25", "bebida": "matcha latte", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00254", "ts": "2026-04-02T13:05:41", "bebida": "espresso", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00255", "ts": "2026-04-02T13:10:05", "bebida": "mocha", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00256", "ts": "2026-04-02T13:04:58", "bebida": "matcha latte", "tazas": 3, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00257", "ts": "2026-04-02T13:02:27", "bebida": "cappuccino", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00258", "ts": "2026-04-02T13:13:00", "bebida": "espresso", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00259", "ts": "2026-04-02T13:21:28", "bebida": "espresso", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00260", "ts": "2026-04-02T13:20:36", "bebida": "café del día", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00261", "ts": "2026-04-02T13:14:16", "bebida": "filtro V60", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00262", "ts": "2026-04-02T13:17:33", "bebida": "flat white", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00263", "ts": "2026-04-02T13:17:06", "bebida": "mocha", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00264", "ts": "2026-04-02T13:19:45", "bebida": "mocha", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00265", "ts": "2026-04-02T13:23:53", "bebida": "espresso", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00266", "ts": "2026-04-02T13:16:00", "bebida": "mocha", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00267", "ts": "2026-04-02T13:20:02", "bebida": "mocha", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00268", "ts": "2026-04-02T13:13:06", "bebida": "cold brew", "tazas": 3, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00269", "ts": "2026-04-02T13:26:41", "bebida": "café del día", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00270", "ts": "2026-04-02T13:27:02", "bebida": "cappuccino", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00271", "ts": "2026-04-02T13:26:15", "bebida": "flat white", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00272", "ts": "2026-04-02T13:30:47", "bebida": "espresso", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00273", "ts": "2026-04-02T13:31:23", "bebida": "flat white", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00274", "ts": "2026-04-02T13:25:14", "bebida": "cold brew", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00275", "ts": "2026-04-02T13:34:31", "bebida": "espresso", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00276", "ts": "2026-04-02T13:30:43", "bebida": "café del día", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00277", "ts": "2026-04-02T13:24:51", "bebida": "filtro V60", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00278", "ts": "2026-04-02T13:31:38", "bebida": "café del día", "tazas": 3, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00279", "ts": "2026-04-02T13:30:57", "bebida": "flat white", "tazas": 3, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00280", "ts": "2026-04-02T13:44:13", "bebida": "mocha", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00281", "ts": "2026-04-02T13:39:43", "bebida": "mocha", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00282", "ts": "2026-04-02T13:47:06", "bebida": "flat white", "tazas": 3, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00283", "ts": "2026-04-02T13:43:35", "bebida": "espresso", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00284", "ts": "2026-04-02T13:45:13", "bebida": "mocha", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00285", "ts": "2026-04-02T13:45:43", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00286", "ts": "2026-04-02T13:42:07", "bebida": "matcha latte", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00287", "ts": "2026-04-02T13:40:12", "bebida": "cappuccino", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00288", "ts": "2026-04-02T13:46:08", "bebida": "cold brew", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00289", "ts": "2026-04-02T13:41:50", "bebida": "flat white", "tazas": 3, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00290", "ts": "2026-04-02T13:36:28", "bebida": "mocha", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00291", "ts": "2026-04-02T13:39:55", "bebida": "café del día", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00292", "ts": "2026-04-02T13:51:35", "bebida": "matcha latte", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00293", "ts": "2026-04-02T13:48:31", "bebida": "café del día", "tazas": 3, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00294", "ts": "2026-04-02T13:57:46", "bebida": "flat white", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00295", "ts": "2026-04-02T13:49:15", "bebida": "cold brew", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00296", "ts": "2026-04-02T13:59:24", "bebida": "espresso", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00297", "ts": "2026-04-02T13:56:34", "bebida": "filtro V60", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00298", "ts": "2026-04-02T13:50:20", "bebida": "filtro V60", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00299", "ts": "2026-04-02T13:59:46", "bebida": "filtro V60", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00300", "ts": "2026-04-02T13:51:10", "bebida": "matcha latte", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00301", "ts": "2026-04-02T13:54:49", "bebida": "flat white", "tazas": 3, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00302", "ts": "2026-04-02T14:03:14", "bebida": "café del día", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00303", "ts": "2026-04-02T14:01:19", "bebida": "café del día", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00304", "ts": "2026-04-02T14:09:14", "bebida": "matcha latte", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00305", "ts": "2026-04-02T14:21:49", "bebida": "filtro V60", "tazas": 3, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00306", "ts": "2026-04-02T14:23:20", "bebida": "cappuccino", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00307", "ts": "2026-04-02T14:22:20", "bebida": "matcha latte", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00308", "ts": "2026-04-02T14:20:03", "bebida": "flat white", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00309", "ts": "2026-04-02T14:35:30", "bebida": "espresso", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00310", "ts": "2026-04-02T14:34:52", "bebida": "café del día", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00311", "ts": "2026-04-02T14:32:14", "bebida": "filtro V60", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00312", "ts": "2026-04-02T14:29:13", "bebida": "café del día", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00313", "ts": "2026-04-02T14:46:52", "bebida": "filtro V60", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00314", "ts": "2026-04-02T14:38:55", "bebida": "cappuccino", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00315", "ts": "2026-04-02T14:41:18", "bebida": "flat white", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00316", "ts": "2026-04-02T14:43:43", "bebida": "flat white", "tazas": 3, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00317", "ts": "2026-04-02T14:52:16", "bebida": "flat white", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00318", "ts": "2026-04-02T14:54:25", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00319", "ts": "2026-04-02T14:50:22", "bebida": "cold brew", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00320", "ts": "2026-04-02T14:49:07", "bebida": "cold brew", "tazas": 3, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00321", "ts": "2026-04-02T15:06:48", "bebida": "cappuccino", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00322", "ts": "2026-04-02T15:06:53", "bebida": "espresso", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00323", "ts": "2026-04-02T15:10:54", "bebida": "mocha", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00324", "ts": "2026-04-02T15:11:10", "bebida": "flat white", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00325", "ts": "2026-04-02T15:22:21", "bebida": "flat white", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00326", "ts": "2026-04-02T15:14:08", "bebida": "filtro V60", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00327", "ts": "2026-04-02T15:15:57", "bebida": "filtro V60", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00328", "ts": "2026-04-02T15:31:31", "bebida": "flat white", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00329", "ts": "2026-04-02T15:30:44", "bebida": "flat white", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00330", "ts": "2026-04-02T15:25:10", "bebida": "flat white", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00331", "ts": "2026-04-02T15:41:34", "bebida": "cold brew", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00332", "ts": "2026-04-02T15:37:26", "bebida": "matcha latte", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00333", "ts": "2026-04-02T15:41:49", "bebida": "filtro V60", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00334", "ts": "2026-04-02T15:45:42", "bebida": "espresso", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00335", "ts": "2026-04-02T15:58:25", "bebida": "matcha latte", "tazas": 2, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00336", "ts": "2026-04-02T15:51:28", "bebida": "espresso", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00337", "ts": "2026-04-02T15:58:50", "bebida": "cappuccino", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00338", "ts": "2026-04-02T16:01:47", "bebida": "mocha", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00339", "ts": "2026-04-02T16:11:26", "bebida": "matcha latte", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00340", "ts": "2026-04-02T16:01:20", "bebida": "cold brew", "tazas": 3, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00341", "ts": "2026-04-02T16:04:19", "bebida": "cold brew", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00342", "ts": "2026-04-02T16:22:50", "bebida": "espresso", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00343", "ts": "2026-04-02T16:18:21", "bebida": "café del día", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00344", "ts": "2026-04-02T16:14:57", "bebida": "cold brew", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00345", "ts": "2026-04-02T16:31:25", "bebida": "matcha latte", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00346", "ts": "2026-04-02T16:31:19", "bebida": "mocha", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00347", "ts": "2026-04-02T16:24:19", "bebida": "cold brew", "tazas": 3, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00348", "ts": "2026-04-02T16:39:54", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00349", "ts": "2026-04-02T16:42:10", "bebida": "filtro V60", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00350", "ts": "2026-04-02T16:44:26", "bebida": "cappuccino", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00351", "ts": "2026-04-02T16:36:19", "bebida": "cold brew", "tazas": 3, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00352", "ts": "2026-04-02T16:58:08", "bebida": "cold brew", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00353", "ts": "2026-04-02T16:56:48", "bebida": "cappuccino", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00354", "ts": "2026-04-02T16:59:09", "bebida": "mocha", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00355", "ts": "2026-04-02T17:11:12", "bebida": "matcha latte", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00356", "ts": "2026-04-02T17:06:54", "bebida": "matcha latte", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00357", "ts": "2026-04-02T17:01:21", "bebida": "cold brew", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00358", "ts": "2026-04-02T17:09:11", "bebida": "mocha", "tazas": 2, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00359", "ts": "2026-04-02T17:18:59", "bebida": "flat white", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00360", "ts": "2026-04-02T17:13:50", "bebida": "matcha latte", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00361", "ts": "2026-04-02T17:21:44", "bebida": "filtro V60", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00362", "ts": "2026-04-02T17:33:47", "bebida": "flat white", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00363", "ts": "2026-04-02T17:32:55", "bebida": "filtro V60", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00364", "ts": "2026-04-02T17:24:46", "bebida": "flat white", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00365", "ts": "2026-04-02T17:30:50", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00366", "ts": "2026-04-02T17:45:43", "bebida": "flat white", "tazas": 3, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00367", "ts": "2026-04-02T17:42:48", "bebida": "cappuccino", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00368", "ts": "2026-04-02T17:46:05", "bebida": "mocha", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00369", "ts": "2026-04-02T17:43:47", "bebida": "cappuccino", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00370", "ts": "2026-04-02T17:50:10", "bebida": "matcha latte", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00371", "ts": "2026-04-02T17:52:12", "bebida": "matcha latte", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00372", "ts": "2026-04-02T17:54:56", "bebida": "filtro V60", "tazas": 2, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00373", "ts": "2026-04-02T18:08:01", "bebida": "mocha", "tazas": 1, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00374", "ts": "2026-04-02T18:08:22", "bebida": "matcha latte", "tazas": 2, "barista": "PABLO CASTRO"}
+{"ticket_id": "TW-00375", "ts": "2026-04-02T18:06:07", "bebida": "filtro V60", "tazas": 3, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00376", "ts": "2026-04-02T18:11:24", "bebida": "espresso", "tazas": 3, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00377", "ts": "2026-04-02T18:15:55", "bebida": "filtro V60", "tazas": 3, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00378", "ts": "2026-04-02T18:21:47", "bebida": "espresso", "tazas": 2, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00379", "ts": "2026-04-02T18:13:22", "bebida": "mocha", "tazas": 2, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00380", "ts": "2026-04-02T18:31:18", "bebida": "mocha", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00381", "ts": "2026-04-02T18:25:11", "bebida": "espresso", "tazas": 1, "barista": "JULIA LÓPEZ"}
+{"ticket_id": "TW-00382", "ts": "2026-04-02T18:24:22", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00383", "ts": "2026-04-02T18:28:35", "bebida": "mocha", "tazas": 1, "barista": "BRUNO MOLINA"}
+{"ticket_id": "TW-00384", "ts": "2026-04-02T18:26:02", "bebida": "filtro V60", "tazas": 1, "barista": "SARA SÁNCHEZ"}
+{"ticket_id": "TW-00385", "ts": "2026-04-02T18:38:45", "bebida": "flat white", "tazas": 1, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00386", "ts": "2026-04-02T18:36:59", "bebida": "matcha latte", "tazas": 2, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00387", "ts": "2026-04-02T18:38:16", "bebida": "filtro V60", "tazas": 1, "barista": "LEO BLANCO"}
+{"ticket_id": "TW-00388", "ts": "2026-04-02T18:55:16", "bebida": "flat white", "tazas": 2, "barista": "HUGO SERRANO"}
+{"ticket_id": "TW-00389", "ts": "2026-04-02T18:53:45", "bebida": "mocha", "tazas": 1, "barista": "SARA GARCÍA"}
+{"ticket_id": "TW-00390", "ts": "2026-04-02T18:48:09", "bebida": "café del día", "tazas": 1, "barista": "LUCÍA TORRES"}
+{"ticket_id": "TW-00391", "ts": "2026-04-02T18:55:43", "bebida": "espresso", "tazas": 1, "barista": "LUCÍA TORRES"}

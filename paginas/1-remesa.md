@@ -1,7 +1,9 @@
-<!-- pendiente: borra esta línea cuando empieces a escribir la página -->
 # 1 · La remesa nueva
 
-> ✏️ Qué llegó: la entrega del parte con fecha de carga 2026-03-31. ¿Qué venía mal? Di qué columna, desde cuándo y cuántas filas.
-> ✏️ Cómo lo descubriste: qué test se puso rojo y qué decía. Si ninguno lo hizo, ¿qué te hizo sospechar?
-> ✏️ Cómo lo arreglaste en plata, y por qué ahí y no en bronce.
-> ✏️ Cierra con una cifra automática, por ejemplo: «plata tiene ahora {{ stg_parte.filas }} pedidos, sin perder ninguna».
+**Qué llegó.** El 2026-03-31 llegó una entrega nueva del parte con {{ calidad_parte.pedidos[0] }} pedidos, del {{ calidad_parte.primer_dia[0] }} al {{ calidad_parte.ultimo_dia[0] }}, y con ella la carta de Tueste con el precio de cada bebida **sin IVA**. A mitad de esa remesa se cambió el TPV, y el nuevo apunta el `importe_eur` **con IVA (21 %)**. Afecta a la columna `importe_eur` desde el {{ calidad_parte.primer_dia_con_iva[0] }}: {{ calidad_parte.filas_importe_con_iva[0] }} pedidos. Los importes son números válidos y positivos, así que a simple vista parecen buenos.
+
+**Cómo lo descubrí.** Ningún test básico se puso rojo: el importe no es nulo, no está fuera de rango y los tickets son únicos. Lo destapó el test de la carta (`precio_cuadra_con_carta`), que adelanté del bloque 3 junto con el modelo `stg_carta`: el precio medio por taza de cada bebida tiene que cuadrar con la carta (±2 %). Se puso rojo con seis de las ocho bebidas, todas cobradas entre un 2 % y un 4 % por encima de la carta. Al calcular el importe por taza dividido entre el precio de carta día a día, hasta el 25 de marzo sale alrededor de 1,00 y desde el 26 salta a alrededor de 1,21, justo el IVA. Y ya venía así en bronce: es lo que mandó el TPV nuevo.
+
+**Cómo lo arreglé.** En plata, en `stg_parte`: para los pedidos desde el 26 de marzo, `importe_eur` se divide entre 1,21, de forma que todo el parte va sin IVA, igual que la carta. Una columna nueva, `importe_con_iva`, marca qué filas se han recalculado. No se toca bronce porque es la prueba de lo que se recibió: si mañana alguien pregunta qué mandó el TPV, ahí sigue intacto, y si el arreglo fuera equivocado basta con cambiar el SQL y volver a construir.
+
+Plata tiene ahora {{ stg_parte.filas }} pedidos, sin perder ninguno (el test `filas_conservadas` lo vigila), y el test de la carta está en verde.

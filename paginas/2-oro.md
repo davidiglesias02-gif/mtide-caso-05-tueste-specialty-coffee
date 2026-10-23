@@ -1,8 +1,11 @@
-<!-- pendiente: borra esta línea cuando empieces a escribir la página -->
 # 2 · El oro
 
-> ✏️ Tu estrella: qué es una fila de `fact_pedidos` ({{ fact_pedidos.filas }} filas) y qué dimensiones la rodean.
-> ✏️ Pregunta 1 · ¿Qué **bebida** deja menos ingreso por taza? Tu respuesta, con marcas: {{ pregunta_1.bebida[0] }} con {{ pregunta_1.ingreso_taza[0] }} €/taza.
-> ✏️ Pregunta 2 · ¿Qué **barista** gasta más café por taza? Con {{ pregunta_2.barista[0] }} y {{ pregunta_2.g_taza[0] }}.
-> ✏️ Pregunta 3 · ¿Qué **cafetera** acumula más incidencias por cada 100 tazas? Con {{ pregunta_3.cafetera[0] }} y {{ pregunta_3.incidencias_100tazas[0] }}.
-> ✏️ Con la remesa nueva, ¿se mantienen las respuestas de la J3? ¿Por qué crees que sí o que no?
+**La estrella.** Cada fila de `fact_pedidos` es un pedido del parte, un ticket de caja: cuándo se sirvió, qué barista lo preparó, en qué cafetera, qué bebida, cuántas tazas, cuántos gramos de café, cuánto se cobró (sin IVA) y si tuvo alguna incidencia. Son {{ fact_pedidos.filas }} pedidos. Alrededor, tres dimensiones: `dim_barista` ({{ dim_barista.filas }} baristas), `dim_cafetera` ({{ dim_cafetera.filas }} cafeteras) y `dim_bebida` ({{ dim_bebida.filas }} bebidas). Los tests de `relationships` comprueban que cada pedido apunta a un barista, una cafetera y una bebida que existen.
+
+**Pregunta 1 · ¿Qué bebida deja menos ingreso por taza?** El **{{ pregunta_1.bebida[0] }}**, con {{ pregunta_1.ingreso_taza[0] }} € por taza (sin IVA), seguido del {{ pregunta_1.bebida[1] }} con {{ pregunta_1.ingreso_taza[1] }} €. En el otro extremo, el {{ pregunta_1.bebida[7] }} deja {{ pregunta_1.ingreso_taza[7] }} € por taza.
+
+**Pregunta 2 · ¿Qué barista gasta más café por taza?** **{{ pregunta_2.barista[0] }}**, con {{ pregunta_2.g_taza[0] }} g por taza, muy por encima del siguiente, {{ pregunta_2.barista[1] }}, con {{ pregunta_2.g_taza[1] }} g. El resto del equipo está entre {{ pregunta_2.g_taza[7] }} y {{ pregunta_2.g_taza[2] }} g.
+
+**Pregunta 3 · ¿Qué cafetera acumula más incidencias por cada 100 tazas?** La **{{ pregunta_3.cafetera[0] }}**, con {{ pregunta_3.incidencias_100tazas[0] }} incidencias por cada 100 tazas ({{ pregunta_3.incidencias[0] }} incidencias en {{ pregunta_3.tazas[0] }} tazas), casi el triple que la siguiente, la {{ pregunta_3.cafetera[1] }}, con {{ pregunta_3.incidencias_100tazas[1] }}.
+
+**¿Se mantienen las respuestas de la J3?** Sí: las tres ganadoras son las mismas que en el cuaderno de la J3 (café del día, Sara García y Arduino) y las cifras apenas se mueven (en el cuaderno de la J3, con solo la primera entrega, la Arduino ya multiplicaba por casi tres a la siguiente). Tiene sentido: la remesa añade unos diez días de un negocio que funciona igual, y las diferencias entre los primeros puestos son grandes. La pregunta 1 solo es comparable porque antes arreglamos el IVA de la remesa: sin ese arreglo, el ingreso por taza de las bebidas habría salido inflado en los últimos días.

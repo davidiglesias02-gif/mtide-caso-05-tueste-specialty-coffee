@@ -1,0 +1,49 @@
+version: 2
+models:
+  - name: dim_barista
+    columns:
+      - name: barista
+        data_tests: [unique, not_null]
+  - name: dim_cafetera
+    columns:
+      - name: cafetera
+        data_tests: [unique, not_null]
+  - name: dim_bebida
+    columns:
+      - name: bebida
+        data_tests: [unique, not_null]
+  - name: fact_pedidos
+    description: "Un pedido por fila"
+    columns:
+      - name: ticket
+        data_tests: [unique, not_null]
+      - name: barista
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_barista')
+                field: barista
+      - name: cafetera
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_cafetera')
+                field: cafetera
+      - name: bebida
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_bebida')
+                field: bebida
+  - name: pregunta_1
+    columns:
+      - name: bebida
+        data_tests: [unique, not_null]
+  - name: pregunta_2
+    columns:
+      - name: barista
+        data_tests: [unique, not_null]
+  - name: pregunta_3
+    columns:
+      - name: cafetera
+        data_tests: [unique, not_null]
